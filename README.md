@@ -38,6 +38,48 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+# Ссылки 
+
+Админ-панель
+```
+http://127.0.0.1:8000/admin/
+```
+
+```
+http://127.0.0.1:8000/api/v1/token/
+```
+
+```
+http://127.0.0.1:8000/api/v1/token/refresh/
+```
+
+```
+http://127.0.0.1:8000/api/v1/token/verify/
+```
+
+```
+http://127.0.0.1:8000/api/v1/home/
+```
+
+
+```
+http://127.0.0.1:8000/api/v1/recipe/
+```
+
+
+```
+http://127.0.0.1:8000/api/v2/post/
+```
+
+
+```
+http://127.0.0.1:8000/api/v2/comment/
+```
+
+
+```
+http://127.0.0.1:8000/api/v2/about/1
+```
 
 
 

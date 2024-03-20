@@ -1,18 +1,18 @@
 # config
-
 # Разработка
-1) Клонировать репозиторий
+#1) Клонировать репозиторий
 ```
 git clone https://github.com/VR48hyukh/config.git
 ```
-2)Создать виртульное окружение 
+2) Создать виртульное окружение 
 ```
 cd pythonProject3
 
 python -m venv venv
 ```
 
-3)Активировать виртуальное окружение
+3) Активировать виртуальное окружение
+   
 #Linux
 ```
 source venv/bin/activate
@@ -21,19 +21,19 @@ source venv/bin/activate
 ```
 ./venv/Scripts/activate
 ```
-4)Устанавливить зависимости:
+4) Установить зависимости:
 ```
 pip install -r req.txt
 ```
-5)Выполнить команду для выполнения миграций 
+5) Выполнить команду для выполнения миграций 
 ```
 python manage.py migrate
 ```
-6)Создать суперпользователя
+6) Создать суперпользователя
 ```
 python manage.py createsuperuser
 ```
-7)Запустить сервер
+7) Запустить сервер
 ```
 python manage.py runserver
 ```
